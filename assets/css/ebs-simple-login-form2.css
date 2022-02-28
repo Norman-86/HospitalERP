@@ -1,0 +1,49 @@
+body {
+}
+
+.page-nav-header {
+  font-weight:bolder;
+  background-image:url('../../assets/img/connect.png');
+  -webkit-box-shadow:0px 5px 9px -1px rgba(7, 204, 152, 1);
+  -moz-box-shadow:0px 5px 9px -1px rgba(7, 204, 152, 1);
+  box-shadow:0px 5px 9px -1px rgba(7, 204, 152, 1);
+}
+
+#login-box-heading {
+  font-weight:bolder;
+  background:#fff;
+}
+
+.login-box {
+  border-radius:20px !important;
+}
+
+.click-change {
+  width:100%;
+  height:36px;
+  padding:6px 12px 0 12px;
+  background-color:#fff;
+  border-top-style:none;
+  border-right-style:none;
+  border-bottom-style:solid;
+  border-left-style:none;
+  border-radius:0;
+  box-shadow:none;
+  -webkit-transition:all 0.12s ease;
+  -moz-transition:all 0.12s ease;
+  -o-transition:all 0.12s ease;
+  transition:all 0.12s ease;
+}
+
+.click-change:focus {
+  border-color:none;
+  outline:0;
+  -webkit-box-shadow:0px 5px 7px 0px rgba(7, 204, 152, 1);
+  -moz-box-shadow:0px 5px 7px 0px rgba(7, 204, 152, 1);
+  box-shadow:0px 5px 7px 0px rgba(7, 204, 152, 1);
+  -webkit-transition:all 0.12s ease;
+  -moz-transition:all 0.12s ease;
+  -o-transition:all 0.12s ease;
+  transition:all 0.12s ease;
+}
+
